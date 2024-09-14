@@ -1,28 +1,27 @@
-.app {
+.App {
   font-family: sans-serif;
+  text-align: center;
   padding: 20px;
 }
 
 .accordion {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
-}
-
-.band-img {
-  width: 400px;
-  height: 100%; 
-  margin: 0 auto;
+  margin: 0;
 }
 
 .accordion-item {
+  border: 1px solid #ddd;
   margin-bottom: 10px;
 }
 
 .accordion-header {
-  font-weight: bold;
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
 }
 
 .accordion-content {
@@ -33,13 +32,3 @@
 .accordion-header:hover {
   background-color: #e0e0e0;
 }
-.content {
-  display: flex;
-  width: 60%;
-}
-.accordion-container {
-  display: flex;
-  align-items: center;
-}
-
-

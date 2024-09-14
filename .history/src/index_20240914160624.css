@@ -33,13 +33,4 @@
 .accordion-header:hover {
   background-color: #e0e0e0;
 }
-.content {
-  display: flex;
-  width: 60%;
-}
-.accordion-container {
-  display: flex;
-  align-items: center;
-}
-
 

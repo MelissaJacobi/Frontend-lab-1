@@ -9,8 +9,6 @@ function App() {
         <img className="band-img" src="/public/Coldplay-All-Members.jpg" alt="coldplay members"></img>
         <div className='accordion-container'>
           <div>
-            <h2>Albums</h2>
-            <hr></hr>
             <details className="accordion">
             <summary className='accordion-header'>A Head Full of Dreams</summary>
               <p>A Head Full of Dreams</p>

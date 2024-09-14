@@ -4,14 +4,13 @@
 }
 
 .accordion {
-  width: 100%;
-  max-width: 600px;
+  width: 500px;
   margin: 0 auto;
 }
 
 .band-img {
-  width: 400px;
-  height: 100%; 
+  width: 600px;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -20,9 +19,11 @@
 }
 
 .accordion-header {
-  font-weight: bold;
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
 }
 
 .accordion-content {
@@ -33,13 +34,8 @@
 .accordion-header:hover {
   background-color: #e0e0e0;
 }
+
 .content {
   display: flex;
-  width: 60%;
+  justify-content: center;
 }
-.accordion-container {
-  display: flex;
-  align-items: center;
-}
-
-
